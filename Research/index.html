@@ -4,6 +4,22 @@ title: Projects of Zekang Cheng
 ---
 	<div class="Projects">
 				<center>	<h1>My PhD research</h1> </center>
-	<p> Simulation a droplet formation from a dripping faucet:</p>
-  <img src="dripping.gif" alt="HTML5 Icon" width="640" height="480">
+   <p> My PhD research is on multiphase flows, which is a type of fluids flow involing two or more fluids. The interface separating the fluids is diffcult to deal with as it's a moving boundary with a crucial boundary condition. Our in-house research code tracks the interface explicitly using an adaptive moving mesh and solves the Navier-Stokes equations using finite element method. </p>
+   <p> During my PhD, I have implemented non-isothermal effects (heat transfer, thermocapillarity and thermo-buoyancy) into the the existing code for isothermal multiphase flows; I have also developed a robust numerical treatment for interface topology changes such that our method can be applied to simulate flows with interface break-up; All modifications have been thouroughly validated through benchmark tests; The validated method is used to study the collision of two droplets and the break-up of a non-isothermal liquid bridge. The results have been summarised into two draft papers, one under review (</i><a href="http://www2.eng.cam.ac.uk/~jl305/Papers/JCOMP-S-18-01810.pdf">manuscript</a>) and one under preparation. </p>
+  <p> Below are some results demonstrating the capability of our research code: </p>
+	<p> <b> Simulation a droplet formation from a dripping faucet: </b> </p>
+<center>  <img src="dripping.gif" alt="HTML5 Icon" width="640" height="480"> </center>
+   <center> <p> Droplet formation from a faucet and the generation of satellite droplets.</p></center>
+  <center>  <img src="pere.png" alt="HTML5 Icon" width="400" height="360"> </center>
+
+  <center><p> Comparison with experimental results of Peregrine et al (1990)
+  <p> </center>
+<b> Simulation of binary droplet collision </b> </p>
+<center>  <img src="collision_detail.png" alt="HTML5 Icon" width="770" height="263"> </center>
+  <center><p> How interface break-up is handled numerically</p></center>
+ <center>  <img src="bounce.png" alt="HTML5 Icon" width="770" height="192.5"> </center>
+  <p> </p>
+  <center><p> A simulation with a bounce outcome compared with the experiment of Pan et al. (2006)</p></center>
+ <center>  <img src="merge.png" alt="HTML5 Icon" width="792" height="181"> </center>
+  <center> <p>A simulation with a coalescence outcome compared with the experiment of Pan et al. (2006) </p></center>
 	</div>
