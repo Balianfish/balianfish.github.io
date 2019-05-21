@@ -1,0 +1,9 @@
+---
+layout: default
+title: My past experience
+---
+	<div class="Experience">
+				<center>	<h1> Internship at Citi </h1> </center>
+    <p> Having spent so many years in the university, I decided to explore how I can levearge my skillsets in the "real world". After I submitted my PhD thesis, I did a six-month internship as a quant analyst in Citi's Central Risk Desk (CRD). CRD manages a portfolio through which all the equity flows within the firm centralise, cross and liduidated back to the market. Using statistically-based alpha and risk models, CRD optimises the portfolio's holdings to maximizee the economic utility for the firm. My main responsibility during the internship was to use Python and kdb+/q for data analysis on CRD's PnL, the toxcity of the equity flows and the execution performance at different venues. I have also re-calibrated the trade volume profile used in the trade impact cost model of CRD's portfolio optimisation tool, and co-built a data analytic service which automatically gather data for CRD's daily work. Through the internship, I have gained exposure to portfolio optimisation and electronic trading, and would like to start my career in systematic trading. </p>
+
+	</div>
