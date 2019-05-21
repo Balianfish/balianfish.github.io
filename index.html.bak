@@ -2,7 +2,6 @@
 layout: default
 title: Zekang Cheng
 ---
-<div align="justify">
 
 		<div class="blurb">
     <center><h1>Zekang Cheng</h1></center>
@@ -10,7 +9,5 @@ title: Zekang Cheng
   <p> 我是程泽康，来自中国安徽临泉。我2010年至2014年在中国科学技术大学少年班
 学习，专业为力学。2014年来到剑桥大学，在李杰博士的指导下进行计算两相流的研究，于
 2019年获得博士学位。</p>
-  <p> My PhD research is to develop an accurate and robust numerical method to simulate multiphase flows (<a href="/Research">see details</a>) 
- </p>
-  <p> </p>
+  <p> My PhD research is on multiphase flows, which is a type of fluids flow involving two or more fluids. The goal was to develop an accurate and robust numerical method to simulate non-isothermal two-phase flows on an adaptive moving mesh. I have implemented physical models into the existing code and developed a numerical treatment for interface topology changes in the adaptive moving mesh system. These modifications have extended the applicable range of our numerical method. After being thouroughly tested, the method is then used to study binary droplet collision and non-isothermal liquid bridge break-up.  </p>
 		</div> 

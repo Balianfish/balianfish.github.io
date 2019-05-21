@@ -2,14 +2,12 @@
 layout: default
 title: My PhD research
 ---
-<div align="justify">
-
 	<div class="Projects">
 				<center>	<h1>My PhD research</h1> </center>
-   <p> My PhD research is on multiphase flows, which is a type of fluids flow involving two or more fluids. The interface separating the fluids is difficult to deal with as it's a moving boundary with a crucial boundary condition. Our in-house research code tracks the interface explicitly using an adaptive moving mesh and solves the Navier-Stokes equations using finite element method. </p>
+   <p> My PhD research is on multiphase flows, which is a type of fluids flow involing two or more fluids. The interface separating the fluids is diffcult to deal with as it's a moving boundary with a crucial boundary condition. Our in-house research code tracks the interface explicitly using an adaptive moving mesh and solves the Navier-Stokes equations using finite element method. </p>
    <p> During my PhD, I have implemented non-isothermal effects (heat transfer, thermocapillarity and thermo-buoyancy) into the the existing code for isothermal multiphase flows; I have also developed a robust numerical treatment for interface topology changes such that our method can be applied to simulate flows with interface break-up. These modifications have extended the applicable range of our research code. </p>
 
-   <p> All modifications have been thoroughly validated through benchmark tests; The validated method is used to study the collision of two droplets and the break-up of a non-isothermal liquid bridge. The results have been summarised into two draft papers, one under review (</i><a href="http://www2.eng.cam.ac.uk/~jl305/Papers/JCOMP-S-18-01810.pdf">manuscript</a>) and one under preparation. </p>
+   <p> All modifications have been thouroughly validated through benchmark tests; The validated method is used to study the collision of two droplets and the break-up of a non-isothermal liquid bridge. The results have been summarised into two draft papers, one under review (</i><a href="http://www2.eng.cam.ac.uk/~jl305/Papers/JCOMP-S-18-01810.pdf">manuscript</a>) and one under preparation. </p>
   <p> Below are some results demonstrating the capability of our research code: </p>
 	<p> <b> Simulation a droplet formation from a dripping faucet: </b> </p>
 <center>  <img src="dripping.gif" alt="HTML5 Icon" width="640" height="480"> </center>
